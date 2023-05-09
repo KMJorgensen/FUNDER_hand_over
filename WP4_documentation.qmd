@@ -1,0 +1,292 @@
+---
+title: "FUNDER WP4 documentation"
+author: "Karolina Jörgensen"
+format: html
+documentclass: report
+editor: visual
+date-modified: today
+number-sections: true
+toc: true
+---
+
+# Field work {#sec-field_work}
+
+Below are some notes on the field work that was carried out August 22nd to September 9th 2022. A detailed sampling protocol can be found in the FUNDER Google Drive folder "FUNDER fieldwork 2022".
+
+## FLIR images
+
+Images with the FLIR camera were taken before any vegetation was removed from a height of around 80 cm. The upper and lower edge of the 25x25 cm frame was fit within the picture frame to ensure that pictures were taken from approximately the same distance at all plots.
+
+Plot-IDs with corresponding picture IDs are available in the dataset: FUNDER_FLIR_camera_pic_numbers.xlsx
+
+## Measuring soil depth
+
+Soil depth was estimated by hammering a small metal rod (diameter \~5 mm) into the ground and measuring how deep down from the ground level the rod hit bedrock or large stones. Three measurements, were done per plot along the edges of the plot to avoid damaging bags/cores that were buried. All measurements were done prior to removing things that were buried. Soil depth was highly variable across plots. A few times, the rod never hit rock but we stopped hammering it down to avoid loosing the rod in the ground; in those cases depth was recorded with the depth and a "+" to indicate that depth was higher than recorded.
+
+Depth data is available in the datasets: FUNDER_raw_soil_depth_measurements_2022.csv/FUNDER_clean_soil_depth_measurements_2022.csv
+
+## Harvesting aboveground biomass
+
+All above ground vegetation was cut at ground level (@fig-cut_vegetation) and put in plastic zip-lock bags. While in the field, vegetation was kept as cool as possible, either by putting it in a cooler box or by keeping it in the shade. After returning from the field, vegetation was kept cool in a fridge or outside in cooler boxes. Nights were cool during the sampling campaign and there was limited space in the fridges. Other sample types had higher priority to be stored in the fridge. Vegetation was transported to UiB within 48 h of sampling and samples containing bryophytes were stored at 4?C until sorting into plant functional types. Samples without bryophytes were kept at -20?C.
+
+![Plot after above ground biomass has been removed at ground level. RIC, tea bags, mycelial ingrowth bags, fungal necromass bags and litter bags have not yet been removed from the plot](images/IMG_1556.JPG){#fig-cut_vegetation alt="Plot after above ground biomass has been removed at ground level. RIC, tea bags, mycelial ingrowth bags, fungal necromass bags and litter bags have not yet been removed from the plot"}
+
+## Collecting bags/RIC/etc.
+
+After all aboveground vegetation was cut the root ingrowth cores (RIC) and the different bag-types (tea, litter, fungal necromass, mycelial ingrowth) were carefully removed from the soil. The aim was to cause minimal disturbance to the soil structure. Records were made about which bags were broken or missing.
+
+*Important note on mycelial ingrowth bags (sand bags)* My impression when removing the mycelial ingrowth bags was that they were quite empty. Some of them had visible hyphae growing in/on them but many appeared to have had low ingrowth. It may be worth sending only a few bags for ergosterol extraction to see if there are detectable concentrations in them. Also: see my notes on ergosterol analyses in @sec-estimating_biomass.
+
+The root ingrowth core was extracted by cutting along the outer edge of the mesh to cut of roots that had grown in and carefully puling up the core to avoid loosing any soil from it. The depth of the root ingrowth core (depth of the hole it was extracted from) was measured and recorded.
+
+Depth records of the RIC is available in the dataset: FUNDER_raw_root_ingrowth_core_depths_2022.csv
+
+## Soil sampling - general notes
+
+A lot of samples had to be taken across a small plot (25x25 cm) and we had to optimise sampling to avoid edges (since vegetation surrounding the plot may have influence also within the plot e.g. by roots growing into the plot). We therefore aimed to avoid the outermost edges while sampling (see drawing made by Morgane Demeaux in the sampling protocol). There may still be some edge effects that affect observations but they are likely to be conservative, meaning that they would rather "dilute" observed treatment effects.
+
+The core taken for microarthropod extraction (block 1-3) had to be placed in the middle of the plot and the remaining soil cores be taken around it. Initially, we aimed to keep the large corer in the plot while sampling the smaller cores to maintain the stability of the soil (@fig-soil_sampling). However, this proved to be too inefficient since the people taking the soil samples were slowed down by each other so we quickly switched methods and had one person (Morgane Demeaux/Susanne Berthelsen) take the large core first and the second person (Karolina J?rgensen) take the smaller cores after.
+
+![Soil sampling. The core for microartropod extraction is placed in the middle of the plot and smaller cores are taken around it for C/N/P-measurements, microbial communities and nematode communities.](images/IMG_1558.JPG){#fig-soil_sampling alt="Soil sampling. The core for microartropod extraction is placed in the middle of the plot and smaller cores are taken around it for C/N/P-measurements, microbial communities and nematode communities."}
+
+This stratgy for sampling increased the efficiency of the work but led to a tradeoff where we were not able to do the planned quantitative estimates of sampled soil volume (by measuring the depth of each soil core). We therefore focused on getting the depths measured for the samples used for C/N/P measurements since the soil structure remained intact while taking those samples. When increasing the number of cores, however, the soil usually "collapsed" and depth measurements would have been highly unreliable (@fig-sampled_soils).
+
+::: {#fig-sampled_soils layout-ncol="2"}
+![Stable soil](images/IMG_1638.JPG){#fig-stable_soil alt="Stable soil"}
+
+![Unstable soil](images/IMG_1614.JPG){#fig-unstable_soil alt="Unstable soil"}
+
+Plots after sampling for microarthropods, C/N/P, microbial/fungal communities and nematodes. The large core used for microarthropods extraction is placed in the center of the plot and the remaining samples have been taken around it, avoiding the edges of the plot. There was a range in stability of the soils and some remained rather intact even after intense sampling while others "caved in" during sampling. In the soil to the left, there is a large stone in the center of the plot which complicated the sampling for the microarthropod community.
+:::
+
+## Soil samples: C/N/P data
+
+Soil samples used for analysis of content of C/N/P were collected from all treatments in four blocks at the 12 VCG sites (see special case for Rambera below). In **block 1-3**, six cores (1.2 cm in diameter; maximum depth = 10 cm) taken evenly across the 25x25 cm plot were pooled into one composite sample per plot. The depth of each core was recorded (datasets: FUNDER_raw_CNP_core_depths_2022.csv/FUNDER_clean_CNP_core_depths_2022.csv).
+
+In **block 4**, around ten cores (1.2 cm in diameter; maximum depth = 15 cm) were taken in each plot. Samples were split into three depth classes; 0-5; 5-10; 10-15 cm. Depths for each core were recorded (dataset: FUNDER_raw_CNP_core_depths_2022.csv). **Note:** At sites HOG, ALR, FAU no exact depths were recorded. Instead, there are notes about whether the specific depth category was sampled or not. I.e. the layer 5-10 cm is regarded as sampled even if the soil core was only 6 cm deep.
+
+In the field, samples were kept as cool as possible by putting them in the shade. Within 8h (after returning from the field) samples were kept in the fridge (+4°C) before being transported to UiB and stored at -20°C within 48h of sampling. Some temperature fluctuations may have occurred during transport but they should not cause any major effects on total element contents.
+
+The soil corer was wiped off between plots to remove any visible soil.
+
+### Sampling at Rambera
+
+At Rambera, the sampling protocol outlined above could not be used due to the soil conditions. The soil had a large proportion of small stones and shallow bedrock/large stones. This made it impossible to use the soil corer we had. Instead, we adopted an alternative approach where larger sub-samples were dug up with a trowel and pooled (we aimed at taking the "chunks" of soil evenly across the plot and across the same depth as at other sites.
+
+To have the possibility to still get quantitative data from Rambera, we collected around 6 cores (pooled, deapths of individual cores recorded) across the whole block (outside of experimental plots) with the aim to get a chance to use an imputational approach to estimate the sampled volume in the plots. To do that, we would have to assume that bulk density is homogenous within the whole block (a rather bold assumption).
+
+These "quantitative" samples were collected for block 1 and 2 combined, and separately for block 3 and 4. Depth data is available in the dataset: FUDNER_raw_Rambera_CNP_core_depths_2022.csv.
+
+### Important caveat: quantitative data
+
+During the sampling campaign, the soil was very dry at a majority of the sites (and became compressed or lost its integrity when the corer was inserted) and it was difficult to get intact cores (\@fig-sampled_soils). This poses a problem when trying to quantify C, N and P stocks since there is a large uncertainty about the actual volumes that have been sampled.
+
+I would be hesitant to use the C/N/P data in a quantitative way, and would instead focus on proportions and stoichiometry data in the analyses. To get quantitative data (e.g. to increase quality of earth system models), I would recommend doing a second round of sampling (at the site level) and make sure that cores stay intact so they can be separated into layers that better correspond to the depths used in ESMs.
+
+## Soil samples: Microbial and fungal communities
+
+The microbial samples (intended to be used for metabarcoding, enzyme analyses and ergosterol/PLFA) were sampled with the same corer as the C/N/P samples (1.2 cm in diameter). The samples consists of five pooled cores taken across the 25x25 cm plot (avoidning the absolute edges) down to a maximum depth of 10 cm. Samples were kept cool (in a cooler box) in the field and after returning from the field kept cool at +4°C. Within 48 h, samples were transported to UiB and stored at -20°C. The soil corer was wiped off between plots and the CNP samples were taken before microbial samples in the plot (used as "cleaning cores"), thus minimising risk of cross contamination. Variation in storage temperatures may have occurred during transportation but temperature was kept as low as possible to avoid rapid growth of disturbance favoured organisms.
+
+Due to the small plot size and loose soil, it was not possible to measure the depths of the cores. If we aim to get quantitative measurements of fungal/microbial biomass we would have to use the volumetric data from the CNP samples in combination with weight data from microbial samples.
+
+### Sampling at Rambera
+
+The same method used for sampling the C/N/P samples at Rambera was used for the soil samples for fungal and microbial communities, i.e. they were collected using a trowel that was wiped clean between plots. I aimed at taking samples across the whole plot.
+
+## Soil samples: Nematodes
+
+Samples for nematode extractions were taken with the 1.2 cm soil corer (\~10 cores, aiming at sampling around 50 g og soil) across the 25x25 cm plot. Cores were gently transferred to zip-lock bags to avoid harming the nematodes (which could be done if using a knife to extract the core from the corer). In the field, samples were stored in the shade and after returning from the field kept in the fridge.
+
+Samples were transported to UiB within 48 h of sampling and samples were kept in the fridge (+4°C) until extraction.
+
+# Lab work {#sec-lab_work}
+
+## Soil samples: C/N/P data
+
+### Weighing fresh weight
+
+Freshly frozen samples were weighed (total wet weight (g); 2-digits) in ziplock-bags (weight of bags: "normal"= 3.62 g ; "blue" = 4.68 g). **Note:** Weights of plastic bags should be subtracted from fresh weight before calculating the water content of samples.
+
+*Person responsible: Karolina Jörgensen*
+
+### Water content, organic matter content and inorganic C content
+
+Soils (all soil in the bag) was transferred to aluminium containers and dried at 55°C for 48h. Dry weight was recorded (2 digits) and the soils were homogenised by hand (breaking aggregates). Litter and larger stones were removed at this stage (weights recorded). A sub-sample (10-25 ml) was transferred a 50 ml Falcon tube (REF: 352070) for fine homogenisation and measurement of total C, N and P content (in Oslo; see section 2 about microbial samples).
+
+Dataset with fresh and dry weights of the composite samples: FUNDER_raw_CNP_sample_weights_2022.csv
+
+*Person responsible: Susanne Berthelsen*
+
+### Estimate organic matter content and inorganic carbon content (LOI)
+
+Another sub-sample was used for determining organic matter and inorganic C content by loss on ignition (LOI). The soil was put in pre-weight ceramic crucibles and dried at 105°C for 24 hours, weights before and after drying were recorded (4 digits). The soil was thereafter burned at 550°C for 5 hours and the weight recorded (mass loss = organic matter, 4 digits). After that, soils were burned again at 950°C to estimate inorganic C content (mass loss = inorganic C, e.g. carbonates).
+
+Soils not used for C/N/P-measurements or LOI were put back into dry zip-lock bags and stored at room temperature.
+
+Dataset: FUNDER_raw_LOI_2022.csv/FUNDER_clean_LOI_2022.csv
+
+*Person responsible: Susanne Berthelsen*
+
+### C/N/P analysis
+
+Soils were shipped to UiO to be homogenised using a Fast prep bead beater. X ceramic beads were added to the soil and the soil was homogenised for X rounds, X sec, X rpm. Beads were taken out and cleaned between samples. **Check details about homogenisation protocol with Sondre/Ella**
+
+Homogenised soils were analysed for concentrations of carbon and nitrogen using combustion (C and N) and P using an autoanalyser at UiO. Costs per sample is 100 nok. Details about instruments used are available in the sub-folder called "CNP analyses" in the handing-over-folder I have compiled. Details about analysis methods have to be double checked with Berit Kaasa.
+
+*Person responsible:Sondre Eng (homogenisation),Berit Kaasa (C/N/P measurements)*
+
+## Soil samples: Microbial and fungal communities
+
+### Weighing fresh weight
+
+Freshly frozen samples were weighed (total wet weight (g); 2-digits) in ziplock-bags (weight of bags: "normal"= XX ; "blue" = XX).
+
+Data is available in file: FUNDER_funbac_samples.xlsx
+
+*Person responsible: Karolina Jörgensen*
+
+### Drying
+
+Samples were transported transported to UiO (while frozen) and dried there. The soil was transferred from the zip-lock bag to 50 ml Falcon tubes and dried in a freeze drier for X h. Dried soils were homogenised using a fast prep bead beater with X added ceramic beads (X rounds, X sec, X rpm). Beads were sterilised between samples. **Ask Sondre for details about drying and homogenisation protocol**
+
+*Person responsible: Sondre Eng*
+
+### DNA extraction
+
+DNA extraction is carried out at UiO during spring/summer 2023. DNA will be extracted from homogenised soil using the X kit **Check details about kit and extraction protocol with Sondre/Ella**
+
+*Person responsible: Sondre Eng*
+
+## Litter bags
+
+The litter bags were made from litter that had been collected at the site the previous season and stored at room temperature until (for a couple of months) prior to making the litter bags. The litter could, therefore, be expected to have been dry when put in the bags.
+
+The litter was removed from the bags and cleaned in a laminar flow hood by gently brushing the soil off. After cleaning, the litter was transferred to 50 ml Falcon tubes and dried in a freeze drier. After drying, the litter was weighed. There is a more detailed protocol for the cleaning and weighing procedure. Susanne has the most recent version of it.
+
+The first priority is to clean, dry and weigh litter from the control plots and then move on to treatments from plots with a single remaining plant functional group + full removal (GF, GB, BF, BFG). Last the plots with single group removal (G, B, F) will be handled. During spring/summer 2023 may-august an intern Camille Braastad will be working on collecting these data with help from Susanne.
+
+Data is reported in a google sheets document. Susanne has access and can share it.
+
+*Person resopnsible: Susanne Berthelsen, Camille Braastad (intern 2023)*
+
+The main objective with the litter bags is to get reliable mass loss data (hence the thorough cleaning. A secondary objective is to find out which organisms have colonised the litter and may be driving the decomposition. Therefore, we aim at using as sterile methods as possible (laminar flow hood, sterilising brushes and gloves with 70% ethanol). We have decided to do an initial study focused on litter bags from the control plots from all sites. If results look promising, you may want to consider sequencing the remaining bags as well. After mass loss is weighed the litter from control bags will be shipped to UiO and Sondre will include them in the same round of DAN extraction as the soil samples. This will take place in spring/summer 2023.
+
+## Fungal necromass bags
+
+The fungal necromass bags contain either melianised or non-melanised mycelium and were buried in the field in June 2022. At collection, they had been buried around 3 months.
+
+Similarly to the litter bags, we are interested in estimating mass loss. Bags will be cleaned, dried and weighed. Initial weights of the bags + bag IDs are available in the file: FUNDER_fungal_necromass_weights_UiO.xlsx
+
+I doubt that Camille Braastad will have time to start cleaning these bags too since the litter bag project is already extensive, but there is a protocol prepared for that too. Susanne has the most recent version.
+
+## Tea bags (TBI)
+
+Tea bags were buried in the soil to be able to use the tea bag index (TBI) to assess decomposition. One round were buried in summer 2021 (Block 1-4) but in June 2022 the bags in Block 4 were replaced with new ones. The TBI protocol states that a couple of months incubation is optimal and there were worries that the longer incubation period in block 1-3 would have complicated data collection and interpretation. Indeed, the bags in block 1-3 were very difficult to extract as there had been a lot of root ingrowth and decomposition also of the mesh holding the bag together. I would say it's not worth the effort to dry and weigh bags from block 1-3. Insted, focus should be put on bags from block 4 since they generally were in better condition (and incubated for an appropriate amount of time).
+
+Similarly to other bags, the tea bags will have to be cleaned and dried before being weighed. Morgane Demeaux should have data on the initial weights of the tea bags.
+
+# Methods {#sec-methods}
+
+## Metabarcoding
+
+### Genes to target
+
+At the first stage of the metabarcoding, we have decided to target fungi (ITS2) using the primer pair (similar to) gITS7-ITS4/ITS4a primers (Ihrmark-2012) to also amplify e.g. *Archaeorizomyces*. UiO has their own set of tagged primers to ampify the ITS2 region, I'm currently not sure exactly what the primers look like **Check exact primer combination with Håvard/Ella**
+
+We were also planning on using primers to co-amplify 16S and 18S to get a "whole system" view on both eukaryotes and prokaryotes. The Oslo mycology gorup have done promising trials with this approach since it could also give an idea about the relative abundances of fungi/bacteria, although this approach would make assumptions about un-biased PCR and sequencing (which may be disputable).
+
+My general philosophy when doing PCR for metabarcoding is to keep cycle numbers as low as possible (Castaño et al. 2020).
+
+### Sequencing platform
+
+We have discussed the different sequencing platforms available in Norway, and which one to use in this project. In Bergen, Illumina sequencing is available but the sequencing method has some issues with length-bias (discriminates against long sequences).
+
+I have good experience with the PacBio Sequel I platform. For ITS2 amplicons, this platform had the lowest length bias and could, therefore, be considered to generate semi-quantitative data on community composition (Castaño et al. 2020). The Sequel I platform is not available in Norway, but SciLife lab in Uppsala have a lot of experience with it. It has been the go-to platform for researchers at SLU Uppsala for a couple of years now. Usually, the number of sequence reads generated by Sequel I is low compared to Illumina, however in my opinion, the decrease in sequencing depth is outweighed by the decreased length bias, especially if you are mainly interested in taxa that make up a large proportion of the community.
+
+In Oslo, the successor platform PacBio Sequel II is available. One of the benefits with Sequel II compared to sequel I is a substantial increase of sequencing depth. One of the drawbacks for ITS2 metabarcoding, however is that short amplicons are more difficult to load. Generally, amplicons should be 500+ bp. Some trials have been done in at SLU in Uppsala (on the Sequel II platform at SciLifeLab) and the results are promising, although the number of reads are usially a bit lower due to short amplicons.
+
+Interestingly, the length-bias of sequencing seems to be reversed compared to Squal I and Illumina. We have been speculating whether this could be a conservative error given that PCR usually biases against longer sequences. Possibly, the two even each other out.
+
+My plan, agreed on with Håvard, was to go through with Sequel II. We have had a discussion with Ave Tooming-Klunderud at UiO (responsible for sequencing) about this and she thinks it could work, although not optimally for ITS2. The 16S/18S marker is longer and should pose no problem when using Sequel II.
+
+One could, potentially, use primers to target the COI region (I have previously used the ZBJ_ArtF1c-ZBJ_ArtR2c primer pair to do that) to investigate the invertebrate community. Some data on invertebrates will be captured by the 16S/18S community, but likely with a low taxonomic resolution. It could be interesting to specifically target ivertebrates and make comparison between metabarcoded communities and manually extracted communities described in Morganes studies.
+
+## Estimating biomass {#sec-estimating_biomass}
+
+In the project application it is specified that ergosterol will be used as a biomarker to estimate fungal biomass in the soil and in the mycelial ingrowt bags (sand bags). By comparing the newly formed biomass in the bags with the standing biomass in the soil we were hoping to get an idea about productivity **vs.** standing biomass. Part of the standing biomass could, potentially, be made up by necromass (although ergosterol is considered to decompose rather quickly). However, one important drawback with this approach is that arbuscular mycorrhiza have none or very little ergosterol in their cell walls. Thus, in a study system where we expect to find arbuscular mycorrhizal fungi, ergosterol may not be the most appropriate marker.
+
+An alternative approach would be to do PLFA/NLFA extractions and target different PLFA markers that correspond to a more diverse group of fungi and microbes. The advantage of this is not only the ability to also capture arbuscular mycorrhizal fungi, but also that it could be uset do get an estimate of the relative contribution of fungi and bacteria to the stock of microbial/fungal biomass in the soil. This would complement 16S/18S metabarcoded communities in attempts to asses the relative "importance" of the different groups in forming and regulating soil organic matter stocks.
+
+I was in contact with Johannes Rousk at Lund University to ask whether a research stay there to learn the PLFA/NLFA method would be possible. He was positive, and briefly mentioned the cost of anlalysis to be around 100 sek/sample (equivalent to ergosterol extraction in Oslo). Alternative locations for PLFA/NLFA extractions could be at the Swedish University of Agricultural Sciences (SLU) in Umeå (much more expensive, though) or Uppsala (although the method has not been used for many years there so quite extensive work would need to be done to set up the method there again).
+
+Ergosterol analyses were planned to be done by technicians at NMBU in Oslo.
+
+*Person to contact: Line Nybakken*
+
+### Ingrowth bags incubated in 2021
+
+Initially, sand bags were buried at the same time as the litter bags in late season 2021. I raised a concern about that early in 2022 and we decided to replace those bags with newly made ones in early field season 2022 (these were collected by the end of the field season). My rationale was that we want the sand bags to reflect recently produced biomass (which can be assumed with a shorter incubation period). If bags are incubated for longer, biomass turnover may start to occur, and what is measured in the bags would be the net biomass (generated both by growth and turnover). I was unsure about what that measurement would actually mean in terms of assessing productivity. Since we will get data on standing biomass from the soil samples, what is really interesting is to know how actively fungi are growing in theses systems. Therefore, short term measurements may be more important.
+
+The "old" bags are still in storage in the freezer room, though. Morgane should know approximately where they are.
+
+## Enzyme assays
+
+In the project application, it says that there will be measurements of enzyme activities from the soil samples. It is not stated which enzymes to target though. I had a discussion with Lise at one point and she mentioned a method where you incubate soil (or organisms extracted from the soil) in plates that have different substrates in the wells and then use some colorimetric method to see which substrates have been altered (decomposed) after incubation. Hence, the assay would generate a proxy of the decomposition capacity of the microbial community in the soil. My objection to this method is that it is not optimal for fungal dominated systems since the fungi may be to disturbet by sampling and soil prep to be active. Hence, the method would generate data on the potantial capacity of the soil organisms that manage to stay active during incubation. Also, due to the lage sample volume, it would be tedious and expensive to culture each sample on an individual plate.
+
+Instead, I have suggested measuring potential enzyme activity in soil suspensions following the modified protocols from Sinsabaugh and Saiya-Cork. These have been used in my old lab at SLU and people from UiO have made research stays at SLU Uppsala to make analyses too. I would have targeted different hydrolytic enzymes involved in cellulose (B-glucosidase) and chitin (N-acetyl-glucosaminidase) turnover and organic phosphorus (acid phosphatase) acquisition to get an overview of decomposition activities on different types of substrates. The idea was that I would go back to SLU Uppsala to do these analyses since we didn't know any labs that had the equipment in Norway.
+
+With the assays I would have gone for, you would have to have access to a plate reader that can read flourescence in 96 well plates. There may be some plate readers at UiB, but I'm not sure they want to risk contaminating them with soil suspensions.
+
+I will set up protocols for hydrolytic (and potentially also oxidative) enzyme assays at my new position (SLU Uppsala) where we have recently purchased a combined flourescence/absorbance plate reader.
+
+# Summary: sample types
+
++----------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Sample type                                              | Storage location               | Status                                                                                                               | Comment                                                                                                                                                        |
++==========================================================+================================+======================================================================================================================+================================================================================================================================================================+
+| Soil samples, metabarcoding                              | Oslo (sent to UiO early 2023)  | **Ongoing:** drying, homogenisation, DNA extraction (Sondre Eng)                                                     | Same (homogenised) sample can also be used for ergosterol/PLFA extraction and potential enzyme activities.                                                     |
+|                                                          |                                |                                                                                                                      |                                                                                                                                                                |
+|                                                          |                                | **Left to do:** Library prep, sequencing (TBD)                                                                       |                                                                                                                                                                |
++----------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Litter bags                                              | UiB - freezer room (4th floor) | **Ongoing:** cleaning, drying weighing (Susanne Berthelsen, Camille Braastad). First priority are bags from C plots. | Collect data of mass loss and microbial/fungal communities from these samples.                                                                                 |
+|                                                          |                                |                                                                                                                      |                                                                                                                                                                |
+|                                                          |                                | **Left to do:** send bags from C plots to UiO for DNA extraction (Sondre Eng), and metabarcoding (TBD).              |                                                                                                                                                                |
++----------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fungal necromass bags                                    | UiB - freezer room (4th floor) | Processing not started.                                                                                              |                                                                                                                                                                |
+|                                                          |                                |                                                                                                                      |                                                                                                                                                                |
+|                                                          |                                | **Left to do:** cleaning, drying and weighing                                                                        |                                                                                                                                                                |
++----------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Mycelial ingrowth bags (collected August/September 2022) | UiB - freezer room (4th floor) | Processing not started.                                                                                              | Decide whether to extract ergosterol or PLFAs.                                                                                                                 |
+|                                                          |                                |                                                                                                                      |                                                                                                                                                                |
+|                                                          |                                | **Left to do:** drying + extraction                                                                                  | It would be a good idea to do a pilot extraction to see if there are detectable concentrations in a few bags before going through with processing of all bags. |
++----------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Mycelial ingrowth bags (collected June 2022)             | UiB - freezer room             | Processing not started                                                                                               | Decide whether to use these bags at all.                                                                                                                       |
++----------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Tea bags                                                 | UiB - freezer                  | Processing not started                                                                                               | Prioritise bags from block 4.                                                                                                                                  |
+|                                                          |                                |                                                                                                                      |                                                                                                                                                                |
+|                                                          |                                | **Left to do:** Cleaning, drying, weighing                                                                           | Decide whether to process bags from block 1-3.                                                                                                                 |
++----------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+# Pictures
+
+![Sorting samples after returning to from the field. The picture displays about half of the total number of samples from one site.](images/IMG_1580.JPG){#pic-sorting_samples alt="Sorting samples after returning to from the field. The picture displays about half of the total number of samples from one site."}
+
+# Contact details
+
+Susanne Berthelsen: susanne.berthelsen\@uib.no
+
+Camille Braastad: cambraasta\@gmail.com
+
+Morgane Demeaux: morgane.demeaux\@uib.no
+
+Sondre Eng: sondre.eng\@nhm.uio.no/ensondre\@gmail.com
+
+Karolina Jörgensen: karolina.jorgensen\@slu.se/karolina.jorgensen\@gmail.com
+
+Berit Kaasa: berit.kaasa\@ibv.uio.no
+
+Line Nybakken: line.nybakken\@nmbu.no
+
+Ella Thoen: ella.thoen\@ibv.uio.no
+
+Ave Tooming-Klunderud: ave.tooming-klunderud\@ibv.uio.no
