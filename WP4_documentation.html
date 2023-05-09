@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.247">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Karolina Jörgensen">
+
+<title>FUNDER WP4 documentation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="WP4_documentation_files/libs/clipboard/clipboard.min.js"></script>
+<script src="WP4_documentation_files/libs/quarto-html/quarto.js"></script>
+<script src="WP4_documentation_files/libs/quarto-html/popper.min.js"></script>
+<script src="WP4_documentation_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="WP4_documentation_files/libs/quarto-html/anchor.min.js"></script>
+<link href="WP4_documentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="WP4_documentation_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="WP4_documentation_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="WP4_documentation_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="WP4_documentation_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-field_work" id="toc-sec-field_work" class="nav-link active" data-scroll-target="#sec-field_work"><span class="toc-section-number">1</span>  Field work</a>
+  <ul class="collapse">
+  <li><a href="#flir-images" id="toc-flir-images" class="nav-link" data-scroll-target="#flir-images"><span class="toc-section-number">1.1</span>  FLIR images</a></li>
+  <li><a href="#measuring-soil-depth" id="toc-measuring-soil-depth" class="nav-link" data-scroll-target="#measuring-soil-depth"><span class="toc-section-number">1.2</span>  Measuring soil depth</a></li>
+  <li><a href="#harvesting-aboveground-biomass" id="toc-harvesting-aboveground-biomass" class="nav-link" data-scroll-target="#harvesting-aboveground-biomass"><span class="toc-section-number">1.3</span>  Harvesting aboveground biomass</a></li>
+  <li><a href="#collecting-bagsricetc." id="toc-collecting-bagsricetc." class="nav-link" data-scroll-target="#collecting-bagsricetc."><span class="toc-section-number">1.4</span>  Collecting bags/RIC/etc.</a></li>
+  <li><a href="#soil-sampling---general-notes" id="toc-soil-sampling---general-notes" class="nav-link" data-scroll-target="#soil-sampling---general-notes"><span class="toc-section-number">1.5</span>  Soil sampling - general notes</a></li>
+  <li><a href="#soil-samples-cnp-data" id="toc-soil-samples-cnp-data" class="nav-link" data-scroll-target="#soil-samples-cnp-data"><span class="toc-section-number">1.6</span>  Soil samples: C/N/P data</a>
+  <ul class="collapse">
+  <li><a href="#sampling-at-rambera" id="toc-sampling-at-rambera" class="nav-link" data-scroll-target="#sampling-at-rambera"><span class="toc-section-number">1.6.1</span>  Sampling at Rambera</a></li>
+  <li><a href="#important-caveat-quantitative-data" id="toc-important-caveat-quantitative-data" class="nav-link" data-scroll-target="#important-caveat-quantitative-data"><span class="toc-section-number">1.6.2</span>  Important caveat: quantitative data</a></li>
+  </ul></li>
+  <li><a href="#soil-samples-microbial-and-fungal-communities" id="toc-soil-samples-microbial-and-fungal-communities" class="nav-link" data-scroll-target="#soil-samples-microbial-and-fungal-communities"><span class="toc-section-number">1.7</span>  Soil samples: Microbial and fungal communities</a>
+  <ul class="collapse">
+  <li><a href="#sampling-at-rambera-1" id="toc-sampling-at-rambera-1" class="nav-link" data-scroll-target="#sampling-at-rambera-1"><span class="toc-section-number">1.7.1</span>  Sampling at Rambera</a></li>
+  </ul></li>
+  <li><a href="#soil-samples-nematodes" id="toc-soil-samples-nematodes" class="nav-link" data-scroll-target="#soil-samples-nematodes"><span class="toc-section-number">1.8</span>  Soil samples: Nematodes</a></li>
+  </ul></li>
+  <li><a href="#sec-lab_work" id="toc-sec-lab_work" class="nav-link" data-scroll-target="#sec-lab_work"><span class="toc-section-number">2</span>  Lab work</a>
+  <ul class="collapse">
+  <li><a href="#soil-samples-cnp-data-1" id="toc-soil-samples-cnp-data-1" class="nav-link" data-scroll-target="#soil-samples-cnp-data-1"><span class="toc-section-number">2.1</span>  Soil samples: C/N/P data</a>
+  <ul class="collapse">
+  <li><a href="#weighing-fresh-weight" id="toc-weighing-fresh-weight" class="nav-link" data-scroll-target="#weighing-fresh-weight"><span class="toc-section-number">2.1.1</span>  Weighing fresh weight</a></li>
+  <li><a href="#water-content-organic-matter-content-and-inorganic-c-content" id="toc-water-content-organic-matter-content-and-inorganic-c-content" class="nav-link" data-scroll-target="#water-content-organic-matter-content-and-inorganic-c-content"><span class="toc-section-number">2.1.2</span>  Water content, organic matter content and inorganic C content</a></li>
+  <li><a href="#estimate-organic-matter-content-and-inorganic-carbon-content-loi" id="toc-estimate-organic-matter-content-and-inorganic-carbon-content-loi" class="nav-link" data-scroll-target="#estimate-organic-matter-content-and-inorganic-carbon-content-loi"><span class="toc-section-number">2.1.3</span>  Estimate organic matter content and inorganic carbon content (LOI)</a></li>
+  <li><a href="#cnp-analysis" id="toc-cnp-analysis" class="nav-link" data-scroll-target="#cnp-analysis"><span class="toc-section-number">2.1.4</span>  C/N/P analysis</a></li>
+  </ul></li>
+  <li><a href="#soil-samples-microbial-and-fungal-communities-1" id="toc-soil-samples-microbial-and-fungal-communities-1" class="nav-link" data-scroll-target="#soil-samples-microbial-and-fungal-communities-1"><span class="toc-section-number">2.2</span>  Soil samples: Microbial and fungal communities</a>
+  <ul class="collapse">
+  <li><a href="#weighing-fresh-weight-1" id="toc-weighing-fresh-weight-1" class="nav-link" data-scroll-target="#weighing-fresh-weight-1"><span class="toc-section-number">2.2.1</span>  Weighing fresh weight</a></li>
+  <li><a href="#drying" id="toc-drying" class="nav-link" data-scroll-target="#drying"><span class="toc-section-number">2.2.2</span>  Drying</a></li>
+  <li><a href="#dna-extraction" id="toc-dna-extraction" class="nav-link" data-scroll-target="#dna-extraction"><span class="toc-section-number">2.2.3</span>  DNA extraction</a></li>
+  </ul></li>
+  <li><a href="#litter-bags" id="toc-litter-bags" class="nav-link" data-scroll-target="#litter-bags"><span class="toc-section-number">2.3</span>  Litter bags</a></li>
+  <li><a href="#fungal-necromass-bags" id="toc-fungal-necromass-bags" class="nav-link" data-scroll-target="#fungal-necromass-bags"><span class="toc-section-number">2.4</span>  Fungal necromass bags</a></li>
+  <li><a href="#tea-bags-tbi" id="toc-tea-bags-tbi" class="nav-link" data-scroll-target="#tea-bags-tbi"><span class="toc-section-number">2.5</span>  Tea bags (TBI)</a></li>
+  </ul></li>
+  <li><a href="#sec-methods" id="toc-sec-methods" class="nav-link" data-scroll-target="#sec-methods"><span class="toc-section-number">3</span>  Methods</a>
+  <ul class="collapse">
+  <li><a href="#metabarcoding" id="toc-metabarcoding" class="nav-link" data-scroll-target="#metabarcoding"><span class="toc-section-number">3.1</span>  Metabarcoding</a>
+  <ul class="collapse">
+  <li><a href="#genes-to-target" id="toc-genes-to-target" class="nav-link" data-scroll-target="#genes-to-target"><span class="toc-section-number">3.1.1</span>  Genes to target</a></li>
+  <li><a href="#sequencing-platform" id="toc-sequencing-platform" class="nav-link" data-scroll-target="#sequencing-platform"><span class="toc-section-number">3.1.2</span>  Sequencing platform</a></li>
+  </ul></li>
+  <li><a href="#sec-estimating_biomass" id="toc-sec-estimating_biomass" class="nav-link" data-scroll-target="#sec-estimating_biomass"><span class="toc-section-number">3.2</span>  Estimating biomass</a>
+  <ul class="collapse">
+  <li><a href="#ingrowth-bags-incubated-in-2021" id="toc-ingrowth-bags-incubated-in-2021" class="nav-link" data-scroll-target="#ingrowth-bags-incubated-in-2021"><span class="toc-section-number">3.2.1</span>  Ingrowth bags incubated in 2021</a></li>
+  </ul></li>
+  <li><a href="#enzyme-assays" id="toc-enzyme-assays" class="nav-link" data-scroll-target="#enzyme-assays"><span class="toc-section-number">3.3</span>  Enzyme assays</a></li>
+  </ul></li>
+  <li><a href="#summary-sample-types" id="toc-summary-sample-types" class="nav-link" data-scroll-target="#summary-sample-types"><span class="toc-section-number">4</span>  Summary: sample types</a></li>
+  <li><a href="#pictures" id="toc-pictures" class="nav-link" data-scroll-target="#pictures"><span class="toc-section-number">5</span>  Pictures</a></li>
+  <li><a href="#contact-details" id="toc-contact-details" class="nav-link" data-scroll-target="#contact-details"><span class="toc-section-number">6</span>  Contact details</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">FUNDER WP4 documentation</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Karolina Jörgensen </p>
+          </div>
+  </div>
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">May 9, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="sec-field_work" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Field work</h1>
+<p>Below are some notes on the field work that was carried out August 22nd to September 9th 2022. A detailed sampling protocol can be found in the FUNDER Google Drive folder “FUNDER fieldwork 2022”.</p>
+<section id="flir-images" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="flir-images"><span class="header-section-number">1.1</span> FLIR images</h2>
+<p>Images with the FLIR camera were taken before any vegetation was removed from a height of around 80 cm. The upper and lower edge of the 25x25 cm frame was fit within the picture frame to ensure that pictures were taken from approximately the same distance at all plots.</p>
+<p>Plot-IDs with corresponding picture IDs are available in the dataset: FUNDER_FLIR_camera_pic_numbers.xlsx</p>
+</section>
+<section id="measuring-soil-depth" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="measuring-soil-depth"><span class="header-section-number">1.2</span> Measuring soil depth</h2>
+<p>Soil depth was estimated by hammering a small metal rod (diameter ~5 mm) into the ground and measuring how deep down from the ground level the rod hit bedrock or large stones. Three measurements, were done per plot along the edges of the plot to avoid damaging bags/cores that were buried. All measurements were done prior to removing things that were buried. Soil depth was highly variable across plots. A few times, the rod never hit rock but we stopped hammering it down to avoid loosing the rod in the ground; in those cases depth was recorded with the depth and a “+” to indicate that depth was higher than recorded.</p>
+<p>Depth data is available in the datasets: FUNDER_raw_soil_depth_measurements_2022.csv/FUNDER_clean_soil_depth_measurements_2022.csv</p>
+</section>
+<section id="harvesting-aboveground-biomass" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="harvesting-aboveground-biomass"><span class="header-section-number">1.3</span> Harvesting aboveground biomass</h2>
+<p>All above ground vegetation was cut at ground level (<a href="#fig-cut_vegetation">Figure&nbsp;1</a>) and put in plastic zip-lock bags. While in the field, vegetation was kept as cool as possible, either by putting it in a cooler box or by keeping it in the shade. After returning from the field, vegetation was kept cool in a fridge or outside in cooler boxes. Nights were cool during the sampling campaign and there was limited space in the fridges. Other sample types had higher priority to be stored in the fridge. Vegetation was transported to UiB within 48 h of sampling and samples containing bryophytes were stored at 4?C until sorting into plant functional types. Samples without bryophytes were kept at -20?C.</p>
+<div id="fig-cut_vegetation" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/IMG_1556.JPG" class="img-fluid figure-img" alt="Plot after above ground biomass has been removed at ground level. RIC, tea bags, mycelial ingrowth bags, fungal necromass bags and litter bags have not yet been removed from the plot"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Plot after above ground biomass has been removed at ground level. RIC, tea bags, mycelial ingrowth bags, fungal necromass bags and litter bags have not yet been removed from the plot</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="collecting-bagsricetc." class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="collecting-bagsricetc."><span class="header-section-number">1.4</span> Collecting bags/RIC/etc.</h2>
+<p>After all aboveground vegetation was cut the root ingrowth cores (RIC) and the different bag-types (tea, litter, fungal necromass, mycelial ingrowth) were carefully removed from the soil. The aim was to cause minimal disturbance to the soil structure. Records were made about which bags were broken or missing.</p>
+<p><em>Important note on mycelial ingrowth bags (sand bags)</em> My impression when removing the mycelial ingrowth bags was that they were quite empty. Some of them had visible hyphae growing in/on them but many appeared to have had low ingrowth. It may be worth sending only a few bags for ergosterol extraction to see if there are detectable concentrations in them. Also: see my notes on ergosterol analyses in <a href="#sec-estimating_biomass">Section&nbsp;3.2</a>.</p>
+<p>The root ingrowth core was extracted by cutting along the outer edge of the mesh to cut of roots that had grown in and carefully puling up the core to avoid loosing any soil from it. The depth of the root ingrowth core (depth of the hole it was extracted from) was measured and recorded.</p>
+<p>Depth records of the RIC is available in the dataset: FUNDER_raw_root_ingrowth_core_depths_2022.csv</p>
+</section>
+<section id="soil-sampling---general-notes" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="soil-sampling---general-notes"><span class="header-section-number">1.5</span> Soil sampling - general notes</h2>
+<p>A lot of samples had to be taken across a small plot (25x25 cm) and we had to optimise sampling to avoid edges (since vegetation surrounding the plot may have influence also within the plot e.g.&nbsp;by roots growing into the plot). We therefore aimed to avoid the outermost edges while sampling (see drawing made by Morgane Demeaux in the sampling protocol). There may still be some edge effects that affect observations but they are likely to be conservative, meaning that they would rather “dilute” observed treatment effects.</p>
+<p>The core taken for microarthropod extraction (block 1-3) had to be placed in the middle of the plot and the remaining soil cores be taken around it. Initially, we aimed to keep the large corer in the plot while sampling the smaller cores to maintain the stability of the soil (<a href="#fig-soil_sampling">Figure&nbsp;2</a>). However, this proved to be too inefficient since the people taking the soil samples were slowed down by each other so we quickly switched methods and had one person (Morgane Demeaux/Susanne Berthelsen) take the large core first and the second person (Karolina J?rgensen) take the smaller cores after.</p>
+<div id="fig-soil_sampling" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/IMG_1558.JPG" class="img-fluid figure-img" alt="Soil sampling. The core for microartropod extraction is placed in the middle of the plot and smaller cores are taken around it for C/N/P-measurements, microbial communities and nematode communities."></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: Soil sampling. The core for microartropod extraction is placed in the middle of the plot and smaller cores are taken around it for C/N/P-measurements, microbial communities and nematode communities.</figcaption><p></p>
+</figure>
+</div>
+<p>This stratgy for sampling increased the efficiency of the work but led to a tradeoff where we were not able to do the planned quantitative estimates of sampled soil volume (by measuring the depth of each soil core). We therefore focused on getting the depths measured for the samples used for C/N/P measurements since the soil structure remained intact while taking those samples. When increasing the number of cores, however, the soil usually “collapsed” and depth measurements would have been highly unreliable (<a href="#fig-sampled_soils">Figure&nbsp;3</a>).</p>
+<div id="fig-sampled_soils" class="quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-stable_soil" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/IMG_1638.JPG" class="img-fluid figure-img" alt="Stable soil" data-ref-parent="fig-sampled_soils"></p>
+<p></p><figcaption class="figure-caption">(a) Stable soil</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-unstable_soil" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/IMG_1614.JPG" class="img-fluid figure-img" alt="Unstable soil" data-ref-parent="fig-sampled_soils"></p>
+<p></p><figcaption class="figure-caption">(b) Unstable soil</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;3: Plots after sampling for microarthropods, C/N/P, microbial/fungal communities and nematodes. The large core used for microarthropods extraction is placed in the center of the plot and the remaining samples have been taken around it, avoiding the edges of the plot. There was a range in stability of the soils and some remained rather intact even after intense sampling while others “caved in” during sampling. In the soil to the left, there is a large stone in the center of the plot which complicated the sampling for the microarthropod community.</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="soil-samples-cnp-data" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="soil-samples-cnp-data"><span class="header-section-number">1.6</span> Soil samples: C/N/P data</h2>
+<p>Soil samples used for analysis of content of C/N/P were collected from all treatments in four blocks at the 12 VCG sites (see special case for Rambera below). In <strong>block 1-3</strong>, six cores (1.2 cm in diameter; maximum depth = 10 cm) taken evenly across the 25x25 cm plot were pooled into one composite sample per plot. The depth of each core was recorded (datasets: FUNDER_raw_CNP_core_depths_2022.csv/FUNDER_clean_CNP_core_depths_2022.csv).</p>
+<p>In <strong>block 4</strong>, around ten cores (1.2 cm in diameter; maximum depth = 15 cm) were taken in each plot. Samples were split into three depth classes; 0-5; 5-10; 10-15 cm. Depths for each core were recorded (dataset: FUNDER_raw_CNP_core_depths_2022.csv). <strong>Note:</strong> At sites HOG, ALR, FAU no exact depths were recorded. Instead, there are notes about whether the specific depth category was sampled or not. I.e. the layer 5-10 cm is regarded as sampled even if the soil core was only 6 cm deep.</p>
+<p>In the field, samples were kept as cool as possible by putting them in the shade. Within 8h (after returning from the field) samples were kept in the fridge (+4°C) before being transported to UiB and stored at -20°C within 48h of sampling. Some temperature fluctuations may have occurred during transport but they should not cause any major effects on total element contents.</p>
+<p>The soil corer was wiped off between plots to remove any visible soil.</p>
+<section id="sampling-at-rambera" class="level3" data-number="1.6.1">
+<h3 data-number="1.6.1" class="anchored" data-anchor-id="sampling-at-rambera"><span class="header-section-number">1.6.1</span> Sampling at Rambera</h3>
+<p>At Rambera, the sampling protocol outlined above could not be used due to the soil conditions. The soil had a large proportion of small stones and shallow bedrock/large stones. This made it impossible to use the soil corer we had. Instead, we adopted an alternative approach where larger sub-samples were dug up with a trowel and pooled (we aimed at taking the “chunks” of soil evenly across the plot and across the same depth as at other sites.</p>
+<p>To have the possibility to still get quantitative data from Rambera, we collected around 6 cores (pooled, deapths of individual cores recorded) across the whole block (outside of experimental plots) with the aim to get a chance to use an imputational approach to estimate the sampled volume in the plots. To do that, we would have to assume that bulk density is homogenous within the whole block (a rather bold assumption).</p>
+<p>These “quantitative” samples were collected for block 1 and 2 combined, and separately for block 3 and 4. Depth data is available in the dataset: FUDNER_raw_Rambera_CNP_core_depths_2022.csv.</p>
+</section>
+<section id="important-caveat-quantitative-data" class="level3" data-number="1.6.2">
+<h3 data-number="1.6.2" class="anchored" data-anchor-id="important-caveat-quantitative-data"><span class="header-section-number">1.6.2</span> Important caveat: quantitative data</h3>
+<p>During the sampling campaign, the soil was very dry at a majority of the sites (and became compressed or lost its integrity when the corer was inserted) and it was difficult to get intact cores (@fig-sampled_soils). This poses a problem when trying to quantify C, N and P stocks since there is a large uncertainty about the actual volumes that have been sampled.</p>
+<p>I would be hesitant to use the C/N/P data in a quantitative way, and would instead focus on proportions and stoichiometry data in the analyses. To get quantitative data (e.g.&nbsp;to increase quality of earth system models), I would recommend doing a second round of sampling (at the site level) and make sure that cores stay intact so they can be separated into layers that better correspond to the depths used in ESMs.</p>
+</section>
+</section>
+<section id="soil-samples-microbial-and-fungal-communities" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="soil-samples-microbial-and-fungal-communities"><span class="header-section-number">1.7</span> Soil samples: Microbial and fungal communities</h2>
+<p>The microbial samples (intended to be used for metabarcoding, enzyme analyses and ergosterol/PLFA) were sampled with the same corer as the C/N/P samples (1.2 cm in diameter). The samples consists of five pooled cores taken across the 25x25 cm plot (avoidning the absolute edges) down to a maximum depth of 10 cm. Samples were kept cool (in a cooler box) in the field and after returning from the field kept cool at +4°C. Within 48 h, samples were transported to UiB and stored at -20°C. The soil corer was wiped off between plots and the CNP samples were taken before microbial samples in the plot (used as “cleaning cores”), thus minimising risk of cross contamination. Variation in storage temperatures may have occurred during transportation but temperature was kept as low as possible to avoid rapid growth of disturbance favoured organisms.</p>
+<p>Due to the small plot size and loose soil, it was not possible to measure the depths of the cores. If we aim to get quantitative measurements of fungal/microbial biomass we would have to use the volumetric data from the CNP samples in combination with weight data from microbial samples.</p>
+<section id="sampling-at-rambera-1" class="level3" data-number="1.7.1">
+<h3 data-number="1.7.1" class="anchored" data-anchor-id="sampling-at-rambera-1"><span class="header-section-number">1.7.1</span> Sampling at Rambera</h3>
+<p>The same method used for sampling the C/N/P samples at Rambera was used for the soil samples for fungal and microbial communities, i.e.&nbsp;they were collected using a trowel that was wiped clean between plots. I aimed at taking samples across the whole plot.</p>
+</section>
+</section>
+<section id="soil-samples-nematodes" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="soil-samples-nematodes"><span class="header-section-number">1.8</span> Soil samples: Nematodes</h2>
+<p>Samples for nematode extractions were taken with the 1.2 cm soil corer (~10 cores, aiming at sampling around 50 g og soil) across the 25x25 cm plot. Cores were gently transferred to zip-lock bags to avoid harming the nematodes (which could be done if using a knife to extract the core from the corer). In the field, samples were stored in the shade and after returning from the field kept in the fridge.</p>
+<p>Samples were transported to UiB within 48 h of sampling and samples were kept in the fridge (+4°C) until extraction.</p>
+</section>
+</section>
+<section id="sec-lab_work" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Lab work</h1>
+<section id="soil-samples-cnp-data-1" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="soil-samples-cnp-data-1"><span class="header-section-number">2.1</span> Soil samples: C/N/P data</h2>
+<section id="weighing-fresh-weight" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="weighing-fresh-weight"><span class="header-section-number">2.1.1</span> Weighing fresh weight</h3>
+<p>Freshly frozen samples were weighed (total wet weight (g); 2-digits) in ziplock-bags (weight of bags: “normal”= 3.62 g ; “blue” = 4.68 g). <strong>Note:</strong> Weights of plastic bags should be subtracted from fresh weight before calculating the water content of samples.</p>
+<p><em>Person responsible: Karolina Jörgensen</em></p>
+</section>
+<section id="water-content-organic-matter-content-and-inorganic-c-content" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="water-content-organic-matter-content-and-inorganic-c-content"><span class="header-section-number">2.1.2</span> Water content, organic matter content and inorganic C content</h3>
+<p>Soils (all soil in the bag) was transferred to aluminium containers and dried at 55°C for 48h. Dry weight was recorded (2 digits) and the soils were homogenised by hand (breaking aggregates). Litter and larger stones were removed at this stage (weights recorded). A sub-sample (10-25 ml) was transferred a 50 ml Falcon tube (REF: 352070) for fine homogenisation and measurement of total C, N and P content (in Oslo; see section 2 about microbial samples).</p>
+<p>Dataset with fresh and dry weights of the composite samples: FUNDER_raw_CNP_sample_weights_2022.csv</p>
+<p><em>Person responsible: Susanne Berthelsen</em></p>
+</section>
+<section id="estimate-organic-matter-content-and-inorganic-carbon-content-loi" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="estimate-organic-matter-content-and-inorganic-carbon-content-loi"><span class="header-section-number">2.1.3</span> Estimate organic matter content and inorganic carbon content (LOI)</h3>
+<p>Another sub-sample was used for determining organic matter and inorganic C content by loss on ignition (LOI). The soil was put in pre-weight ceramic crucibles and dried at 105°C for 24 hours, weights before and after drying were recorded (4 digits). The soil was thereafter burned at 550°C for 5 hours and the weight recorded (mass loss = organic matter, 4 digits). After that, soils were burned again at 950°C to estimate inorganic C content (mass loss = inorganic C, e.g.&nbsp;carbonates).</p>
+<p>Soils not used for C/N/P-measurements or LOI were put back into dry zip-lock bags and stored at room temperature.</p>
+<p>Dataset: FUNDER_raw_LOI_2022.csv/FUNDER_clean_LOI_2022.csv</p>
+<p><em>Person responsible: Susanne Berthelsen</em></p>
+</section>
+<section id="cnp-analysis" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="cnp-analysis"><span class="header-section-number">2.1.4</span> C/N/P analysis</h3>
+<p>Soils were shipped to UiO to be homogenised using a Fast prep bead beater. X ceramic beads were added to the soil and the soil was homogenised for X rounds, X sec, X rpm. Beads were taken out and cleaned between samples. <strong>Check details about homogenisation protocol with Sondre/Ella</strong></p>
+<p>Homogenised soils were analysed for concentrations of carbon and nitrogen using combustion (C and N) and P using an autoanalyser at UiO. Costs per sample is 100 nok. Details about instruments used are available in the sub-folder called “CNP analyses” in the handing-over-folder I have compiled. Details about analysis methods have to be double checked with Berit Kaasa.</p>
+<p><em>Person responsible:Sondre Eng (homogenisation),Berit Kaasa (C/N/P measurements)</em></p>
+</section>
+</section>
+<section id="soil-samples-microbial-and-fungal-communities-1" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="soil-samples-microbial-and-fungal-communities-1"><span class="header-section-number">2.2</span> Soil samples: Microbial and fungal communities</h2>
+<section id="weighing-fresh-weight-1" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="weighing-fresh-weight-1"><span class="header-section-number">2.2.1</span> Weighing fresh weight</h3>
+<p>Freshly frozen samples were weighed (total wet weight (g); 2-digits) in ziplock-bags (weight of bags: “normal”= XX ; “blue” = XX).</p>
+<p>Data is available in file: FUNDER_funbac_samples.xlsx</p>
+<p><em>Person responsible: Karolina Jörgensen</em></p>
+</section>
+<section id="drying" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="drying"><span class="header-section-number">2.2.2</span> Drying</h3>
+<p>Samples were transported transported to UiO (while frozen) and dried there. The soil was transferred from the zip-lock bag to 50 ml Falcon tubes and dried in a freeze drier for X h. Dried soils were homogenised using a fast prep bead beater with X added ceramic beads (X rounds, X sec, X rpm). Beads were sterilised between samples. <strong>Ask Sondre for details about drying and homogenisation protocol</strong></p>
+<p><em>Person responsible: Sondre Eng</em></p>
+</section>
+<section id="dna-extraction" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="dna-extraction"><span class="header-section-number">2.2.3</span> DNA extraction</h3>
+<p>DNA extraction is carried out at UiO during spring/summer 2023. DNA will be extracted from homogenised soil using the X kit <strong>Check details about kit and extraction protocol with Sondre/Ella</strong></p>
+<p><em>Person responsible: Sondre Eng</em></p>
+</section>
+</section>
+<section id="litter-bags" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="litter-bags"><span class="header-section-number">2.3</span> Litter bags</h2>
+<p>The litter bags were made from litter that had been collected at the site the previous season and stored at room temperature until (for a couple of months) prior to making the litter bags. The litter could, therefore, be expected to have been dry when put in the bags.</p>
+<p>The litter was removed from the bags and cleaned in a laminar flow hood by gently brushing the soil off. After cleaning, the litter was transferred to 50 ml Falcon tubes and dried in a freeze drier. After drying, the litter was weighed. There is a more detailed protocol for the cleaning and weighing procedure. Susanne has the most recent version of it.</p>
+<p>The first priority is to clean, dry and weigh litter from the control plots and then move on to treatments from plots with a single remaining plant functional group + full removal (GF, GB, BF, BFG). Last the plots with single group removal (G, B, F) will be handled. During spring/summer 2023 may-august an intern Camille Braastad will be working on collecting these data with help from Susanne.</p>
+<p>Data is reported in a google sheets document. Susanne has access and can share it.</p>
+<p><em>Person resopnsible: Susanne Berthelsen, Camille Braastad (intern 2023)</em></p>
+<p>The main objective with the litter bags is to get reliable mass loss data (hence the thorough cleaning. A secondary objective is to find out which organisms have colonised the litter and may be driving the decomposition. Therefore, we aim at using as sterile methods as possible (laminar flow hood, sterilising brushes and gloves with 70% ethanol). We have decided to do an initial study focused on litter bags from the control plots from all sites. If results look promising, you may want to consider sequencing the remaining bags as well. After mass loss is weighed the litter from control bags will be shipped to UiO and Sondre will include them in the same round of DAN extraction as the soil samples. This will take place in spring/summer 2023.</p>
+</section>
+<section id="fungal-necromass-bags" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="fungal-necromass-bags"><span class="header-section-number">2.4</span> Fungal necromass bags</h2>
+<p>The fungal necromass bags contain either melianised or non-melanised mycelium and were buried in the field in June 2022. At collection, they had been buried around 3 months.</p>
+<p>Similarly to the litter bags, we are interested in estimating mass loss. Bags will be cleaned, dried and weighed. Initial weights of the bags + bag IDs are available in the file: FUNDER_fungal_necromass_weights_UiO.xlsx</p>
+<p>I doubt that Camille Braastad will have time to start cleaning these bags too since the litter bag project is already extensive, but there is a protocol prepared for that too. Susanne has the most recent version.</p>
+</section>
+<section id="tea-bags-tbi" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="tea-bags-tbi"><span class="header-section-number">2.5</span> Tea bags (TBI)</h2>
+<p>Tea bags were buried in the soil to be able to use the tea bag index (TBI) to assess decomposition. One round were buried in summer 2021 (Block 1-4) but in June 2022 the bags in Block 4 were replaced with new ones. The TBI protocol states that a couple of months incubation is optimal and there were worries that the longer incubation period in block 1-3 would have complicated data collection and interpretation. Indeed, the bags in block 1-3 were very difficult to extract as there had been a lot of root ingrowth and decomposition also of the mesh holding the bag together. I would say it’s not worth the effort to dry and weigh bags from block 1-3. Insted, focus should be put on bags from block 4 since they generally were in better condition (and incubated for an appropriate amount of time).</p>
+<p>Similarly to other bags, the tea bags will have to be cleaned and dried before being weighed. Morgane Demeaux should have data on the initial weights of the tea bags.</p>
+</section>
+</section>
+<section id="sec-methods" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Methods</h1>
+<section id="metabarcoding" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="metabarcoding"><span class="header-section-number">3.1</span> Metabarcoding</h2>
+<section id="genes-to-target" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="genes-to-target"><span class="header-section-number">3.1.1</span> Genes to target</h3>
+<p>At the first stage of the metabarcoding, we have decided to target fungi (ITS2) using the primer pair (similar to) gITS7-ITS4/ITS4a primers (Ihrmark-2012) to also amplify e.g.&nbsp;<em>Archaeorizomyces</em>. UiO has their own set of tagged primers to ampify the ITS2 region, I’m currently not sure exactly what the primers look like <strong>Check exact primer combination with Håvard/Ella</strong></p>
+<p>We were also planning on using primers to co-amplify 16S and 18S to get a “whole system” view on both eukaryotes and prokaryotes. The Oslo mycology gorup have done promising trials with this approach since it could also give an idea about the relative abundances of fungi/bacteria, although this approach would make assumptions about un-biased PCR and sequencing (which may be disputable).</p>
+<p>My general philosophy when doing PCR for metabarcoding is to keep cycle numbers as low as possible (Castaño et al.&nbsp;2020).</p>
+</section>
+<section id="sequencing-platform" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="sequencing-platform"><span class="header-section-number">3.1.2</span> Sequencing platform</h3>
+<p>We have discussed the different sequencing platforms available in Norway, and which one to use in this project. In Bergen, Illumina sequencing is available but the sequencing method has some issues with length-bias (discriminates against long sequences).</p>
+<p>I have good experience with the PacBio Sequel I platform. For ITS2 amplicons, this platform had the lowest length bias and could, therefore, be considered to generate semi-quantitative data on community composition (Castaño et al.&nbsp;2020). The Sequel I platform is not available in Norway, but SciLife lab in Uppsala have a lot of experience with it. It has been the go-to platform for researchers at SLU Uppsala for a couple of years now. Usually, the number of sequence reads generated by Sequel I is low compared to Illumina, however in my opinion, the decrease in sequencing depth is outweighed by the decreased length bias, especially if you are mainly interested in taxa that make up a large proportion of the community.</p>
+<p>In Oslo, the successor platform PacBio Sequel II is available. One of the benefits with Sequel II compared to sequel I is a substantial increase of sequencing depth. One of the drawbacks for ITS2 metabarcoding, however is that short amplicons are more difficult to load. Generally, amplicons should be 500+ bp. Some trials have been done in at SLU in Uppsala (on the Sequel II platform at SciLifeLab) and the results are promising, although the number of reads are usially a bit lower due to short amplicons.</p>
+<p>Interestingly, the length-bias of sequencing seems to be reversed compared to Squal I and Illumina. We have been speculating whether this could be a conservative error given that PCR usually biases against longer sequences. Possibly, the two even each other out.</p>
+<p>My plan, agreed on with Håvard, was to go through with Sequel II. We have had a discussion with Ave Tooming-Klunderud at UiO (responsible for sequencing) about this and she thinks it could work, although not optimally for ITS2. The 16S/18S marker is longer and should pose no problem when using Sequel II.</p>
+<p>One could, potentially, use primers to target the COI region (I have previously used the ZBJ_ArtF1c-ZBJ_ArtR2c primer pair to do that) to investigate the invertebrate community. Some data on invertebrates will be captured by the 16S/18S community, but likely with a low taxonomic resolution. It could be interesting to specifically target ivertebrates and make comparison between metabarcoded communities and manually extracted communities described in Morganes studies.</p>
+</section>
+</section>
+<section id="sec-estimating_biomass" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="sec-estimating_biomass"><span class="header-section-number">3.2</span> Estimating biomass</h2>
+<p>In the project application it is specified that ergosterol will be used as a biomarker to estimate fungal biomass in the soil and in the mycelial ingrowt bags (sand bags). By comparing the newly formed biomass in the bags with the standing biomass in the soil we were hoping to get an idea about productivity <strong>vs.</strong> standing biomass. Part of the standing biomass could, potentially, be made up by necromass (although ergosterol is considered to decompose rather quickly). However, one important drawback with this approach is that arbuscular mycorrhiza have none or very little ergosterol in their cell walls. Thus, in a study system where we expect to find arbuscular mycorrhizal fungi, ergosterol may not be the most appropriate marker.</p>
+<p>An alternative approach would be to do PLFA/NLFA extractions and target different PLFA markers that correspond to a more diverse group of fungi and microbes. The advantage of this is not only the ability to also capture arbuscular mycorrhizal fungi, but also that it could be uset do get an estimate of the relative contribution of fungi and bacteria to the stock of microbial/fungal biomass in the soil. This would complement 16S/18S metabarcoded communities in attempts to asses the relative “importance” of the different groups in forming and regulating soil organic matter stocks.</p>
+<p>I was in contact with Johannes Rousk at Lund University to ask whether a research stay there to learn the PLFA/NLFA method would be possible. He was positive, and briefly mentioned the cost of anlalysis to be around 100 sek/sample (equivalent to ergosterol extraction in Oslo). Alternative locations for PLFA/NLFA extractions could be at the Swedish University of Agricultural Sciences (SLU) in Umeå (much more expensive, though) or Uppsala (although the method has not been used for many years there so quite extensive work would need to be done to set up the method there again).</p>
+<p>Ergosterol analyses were planned to be done by technicians at NMBU in Oslo.</p>
+<p><em>Person to contact: Line Nybakken</em></p>
+<section id="ingrowth-bags-incubated-in-2021" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="ingrowth-bags-incubated-in-2021"><span class="header-section-number">3.2.1</span> Ingrowth bags incubated in 2021</h3>
+<p>Initially, sand bags were buried at the same time as the litter bags in late season 2021. I raised a concern about that early in 2022 and we decided to replace those bags with newly made ones in early field season 2022 (these were collected by the end of the field season). My rationale was that we want the sand bags to reflect recently produced biomass (which can be assumed with a shorter incubation period). If bags are incubated for longer, biomass turnover may start to occur, and what is measured in the bags would be the net biomass (generated both by growth and turnover). I was unsure about what that measurement would actually mean in terms of assessing productivity. Since we will get data on standing biomass from the soil samples, what is really interesting is to know how actively fungi are growing in theses systems. Therefore, short term measurements may be more important.</p>
+<p>The “old” bags are still in storage in the freezer room, though. Morgane should know approximately where they are.</p>
+</section>
+</section>
+<section id="enzyme-assays" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="enzyme-assays"><span class="header-section-number">3.3</span> Enzyme assays</h2>
+<p>In the project application, it says that there will be measurements of enzyme activities from the soil samples. It is not stated which enzymes to target though. I had a discussion with Lise at one point and she mentioned a method where you incubate soil (or organisms extracted from the soil) in plates that have different substrates in the wells and then use some colorimetric method to see which substrates have been altered (decomposed) after incubation. Hence, the assay would generate a proxy of the decomposition capacity of the microbial community in the soil. My objection to this method is that it is not optimal for fungal dominated systems since the fungi may be to disturbet by sampling and soil prep to be active. Hence, the method would generate data on the potantial capacity of the soil organisms that manage to stay active during incubation. Also, due to the lage sample volume, it would be tedious and expensive to culture each sample on an individual plate.</p>
+<p>Instead, I have suggested measuring potential enzyme activity in soil suspensions following the modified protocols from Sinsabaugh and Saiya-Cork. These have been used in my old lab at SLU and people from UiO have made research stays at SLU Uppsala to make analyses too. I would have targeted different hydrolytic enzymes involved in cellulose (B-glucosidase) and chitin (N-acetyl-glucosaminidase) turnover and organic phosphorus (acid phosphatase) acquisition to get an overview of decomposition activities on different types of substrates. The idea was that I would go back to SLU Uppsala to do these analyses since we didn’t know any labs that had the equipment in Norway.</p>
+<p>With the assays I would have gone for, you would have to have access to a plate reader that can read flourescence in 96 well plates. There may be some plate readers at UiB, but I’m not sure they want to risk contaminating them with soil suspensions.</p>
+<p>I will set up protocols for hydrolytic (and potentially also oxidative) enzyme assays at my new position (SLU Uppsala) where we have recently purchased a combined flourescence/absorbance plate reader.</p>
+</section>
+</section>
+<section id="summary-sample-types" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Summary: sample types</h1>
+<table class="table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 8%">
+<col style="width: 31%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sample type</th>
+<th>Storage location</th>
+<th>Status</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Soil samples, metabarcoding</td>
+<td>Oslo (sent to UiO early 2023)</td>
+<td><p><strong>Ongoing:</strong> drying, homogenisation, DNA extraction (Sondre Eng)</p>
+<p><strong>Left to do:</strong> Library prep, sequencing (TBD)</p></td>
+<td>Same (homogenised) sample can also be used for ergosterol/PLFA extraction and potential enzyme activities.</td>
+</tr>
+<tr class="even">
+<td>Litter bags</td>
+<td>UiB - freezer room (4th floor)</td>
+<td><p><strong>Ongoing:</strong> cleaning, drying weighing (Susanne Berthelsen, Camille Braastad). First priority are bags from C plots.</p>
+<p><strong>Left to do:</strong> send bags from C plots to UiO for DNA extraction (Sondre Eng), and metabarcoding (TBD).</p></td>
+<td>Collect data of mass loss and microbial/fungal communities from these samples.</td>
+</tr>
+<tr class="odd">
+<td>Fungal necromass bags</td>
+<td>UiB - freezer room (4th floor)</td>
+<td><p>Processing not started.</p>
+<p><strong>Left to do:</strong> cleaning, drying and weighing</p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Mycelial ingrowth bags (collected August/September 2022)</td>
+<td>UiB - freezer room (4th floor)</td>
+<td><p>Processing not started.</p>
+<p><strong>Left to do:</strong> drying + extraction</p></td>
+<td><p>Decide whether to extract ergosterol or PLFAs.</p>
+<p>It would be a good idea to do a pilot extraction to see if there are detectable concentrations in a few bags before going through with processing of all bags.</p></td>
+</tr>
+<tr class="odd">
+<td>Mycelial ingrowth bags (collected June 2022)</td>
+<td>UiB - freezer room</td>
+<td>Processing not started</td>
+<td>Decide whether to use these bags at all.</td>
+</tr>
+<tr class="even">
+<td>Tea bags</td>
+<td>UiB - freezer</td>
+<td><p>Processing not started</p>
+<p><strong>Left to do:</strong> Cleaning, drying, weighing</p></td>
+<td><p>Prioritise bags from block 4.</p>
+<p>Decide whether to process bags from block 1-3.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pictures" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Pictures</h1>
+<div id="pic-sorting_samples" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/IMG_1580.JPG" class="img-fluid figure-img" alt="Sorting samples after returning to from the field. The picture displays about half of the total number of samples from one site."></p>
+<p></p><figcaption class="figure-caption">Sorting samples after returning to from the field. The picture displays about half of the total number of samples from one site.</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="contact-details" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Contact details</h1>
+<p>Susanne Berthelsen: susanne.berthelsen@uib.no</p>
+<p>Camille Braastad: cambraasta@gmail.com</p>
+<p>Morgane Demeaux: morgane.demeaux@uib.no</p>
+<p>Sondre Eng: sondre.eng@nhm.uio.no/ensondre@gmail.com</p>
+<p>Karolina Jörgensen: karolina.jorgensen@slu.se/karolina.jorgensen@gmail.com</p>
+<p>Berit Kaasa: berit.kaasa@ibv.uio.no</p>
+<p>Line Nybakken: line.nybakken@nmbu.no</p>
+<p>Ella Thoen: ella.thoen@ibv.uio.no</p>
+<p>Ave Tooming-Klunderud: ave.tooming-klunderud@ibv.uio.no</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
