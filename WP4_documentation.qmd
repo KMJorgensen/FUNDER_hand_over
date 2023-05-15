@@ -17,19 +17,23 @@ Below are some notes on the field work that was carried out August 22nd to Septe
 
 Images with the FLIR camera were taken before any vegetation was removed from a height of around 80 cm. The upper and lower edge of the 25x25 cm frame was fit within the picture frame to ensure that pictures were taken from approximately the same distance at all plots.
 
-Plot-IDs with corresponding picture IDs are available in the dataset: FUNDER_FLIR_camera_pic_numbers.xlsx
+Plot-IDs with corresponding picture IDs are available on OSF in the dataset: FUNDER_FLIR_camera_pic_numbers.xlsx
+
+Pictures, both infrared and "normal", are available on OSF in the file:\
+FUNDER_raw_FLIR_2022.zip
 
 ## Measuring soil depth
 
-Soil depth was estimated by hammering a small metal rod (diameter \~5 mm) into the ground and measuring how deep down from the ground level the rod hit bedrock or large stones. Three measurements, were done per plot along the edges of the plot to avoid damaging bags/cores that were buried. All measurements were done prior to removing things that were buried. Soil depth was highly variable across plots. A few times, the rod never hit rock but we stopped hammering it down to avoid loosing the rod in the ground; in those cases depth was recorded with the depth and a "+" to indicate that depth was higher than recorded.
+Soil depth was estimated by hammering a small metal rod (diameter \~5 mm) into the ground and measuring how deep down from the ground level the rod hit bedrock or large stones. Three measurements were done per plot along the edges of the plot to avoid damaging bags/cores that were buried. All measurements were done prior to removing things that were buried. Soil depth was highly variable across plots. A few times, the rod never hit rock but we stopped hammering it down to avoid losing the rod in the ground; in those cases depth was recorded with the depth and a "+" to indicate that depth was higher than recorded.
 
-Depth data is available in the datasets: FUNDER_raw_soil_depth_measurements_2022.csv/FUNDER_clean_soil_depth_measurements_2022.csv
+Depth data is available on OSF in the datasets: FUNDER_raw_soil_depth_measurements_2022.csv\
+FUNDER_clean_soil_depth_measurements_2022.csv
 
 ## Harvesting aboveground biomass
 
-All above ground vegetation was cut at ground level (@fig-cut_vegetation) and put in plastic zip-lock bags. While in the field, vegetation was kept as cool as possible, either by putting it in a cooler box or by keeping it in the shade. After returning from the field, vegetation was kept cool in a fridge or outside in cooler boxes. Nights were cool during the sampling campaign and there was limited space in the fridges. Other sample types had higher priority to be stored in the fridge. Vegetation was transported to UiB within 48 h of sampling and samples containing bryophytes were stored at 4?C until sorting into plant functional types. Samples without bryophytes were kept at -20?C.
+All above ground vegetation was cut at ground level (@fig-cut_vegetation) and put in plastic zip-lock bags. While in the field, vegetation was kept as cool as possible, either by putting it in a cooler box or by keeping it in the shade. After returning from the field, vegetation was kept cool in a fridge or outside in cooler boxes. Nights were cool during the sampling campaign and there was limited space in the fridges. Other sample types had higher priority to be stored in the fridge. Vegetation was transported to UiB within 48 h of sampling and samples containing bryophytes were stored at 4°C until sorting into plant functional types. Samples without bryophytes were kept at -20°C.
 
-![Plot after above ground biomass has been removed at ground level. RIC, tea bags, mycelial ingrowth bags, fungal necromass bags and litter bags have not yet been removed from the plot](images/IMG_1556.JPG){#fig-cut_vegetation alt="Plot after above ground biomass has been removed at ground level. RIC, tea bags, mycelial ingrowth bags, fungal necromass bags and litter bags have not yet been removed from the plot"}
+![Plot after above ground biomass has been removed at ground level. RIC, tea bags, mycelial ingrowth bags, fungal necromass bags and litter bags have not yet been removed from the plot.](images/IMG_1556.JPG){#fig-cut_vegetation alt="Plot after above ground biomass has been removed at ground level. RIC, tea bags, mycelial ingrowth bags, fungal necromass bags and litter bags have not yet been removed from the plot"}
 
 ## Collecting bags/RIC/etc.
 
@@ -39,7 +43,8 @@ After all aboveground vegetation was cut the root ingrowth cores (RIC) and the d
 
 The root ingrowth core was extracted by cutting along the outer edge of the mesh to cut of roots that had grown in and carefully puling up the core to avoid loosing any soil from it. The depth of the root ingrowth core (depth of the hole it was extracted from) was measured and recorded.
 
-Depth records of the RIC is available in the dataset: FUNDER_raw_root_ingrowth_core_depths_2022.csv
+Depth records of the RIC is available on OSF in the dataset: FUNDER_raw_root_ingrowth_core_depths_2022.csv\
+FUNDER_clean_root_ingrowth_core_depths_2022.csv
 
 ## Soil sampling - general notes
 
@@ -61,7 +66,7 @@ Plots after sampling for microarthropods, C/N/P, microbial/fungal communities an
 
 ## Soil samples: C/N/P data
 
-Soil samples used for analysis of content of C/N/P were collected from all treatments in four blocks at the 12 VCG sites (see special case for Rambera below). In **block 1-3**, six cores (1.2 cm in diameter; maximum depth = 10 cm) taken evenly across the 25x25 cm plot were pooled into one composite sample per plot. The depth of each core was recorded (datasets: FUNDER_raw_CNP_core_depths_2022.csv/FUNDER_clean_CNP_core_depths_2022.csv).
+Soil samples used for analysis of content of C/N/P were collected from all treatments in four blocks at the 12 VCG sites (see special case for Rambera below). In **block 1-3**, six cores (1.2 cm in diameter; maximum depth = 10 cm) taken evenly across the 25x25 cm plot were pooled into one composite sample per plot. The depth of each core was recorded.
 
 In **block 4**, around ten cores (1.2 cm in diameter; maximum depth = 15 cm) were taken in each plot. Samples were split into three depth classes; 0-5; 5-10; 10-15 cm. Depths for each core were recorded (dataset: FUNDER_raw_CNP_core_depths_2022.csv). **Note:** At sites HOG, ALR, FAU no exact depths were recorded. Instead, there are notes about whether the specific depth category was sampled or not. I.e. the layer 5-10 cm is regarded as sampled even if the soil core was only 6 cm deep.
 
@@ -69,13 +74,19 @@ In the field, samples were kept as cool as possible by putting them in the shade
 
 The soil corer was wiped off between plots to remove any visible soil.
 
+Data is available on OSF in datasets:\
+FUNDER_raw_CNP_core_depths_2022.csv\
+FUNDER_clean_CNP_core_depths_2022.csv)
+
 ### Sampling at Rambera
 
 At Rambera, the sampling protocol outlined above could not be used due to the soil conditions. The soil had a large proportion of small stones and shallow bedrock/large stones. This made it impossible to use the soil corer we had. Instead, we adopted an alternative approach where larger sub-samples were dug up with a trowel and pooled (we aimed at taking the "chunks" of soil evenly across the plot and across the same depth as at other sites.
 
 To have the possibility to still get quantitative data from Rambera, we collected around 6 cores (pooled, deapths of individual cores recorded) across the whole block (outside of experimental plots) with the aim to get a chance to use an imputational approach to estimate the sampled volume in the plots. To do that, we would have to assume that bulk density is homogenous within the whole block (a rather bold assumption).
 
-These "quantitative" samples were collected for block 1 and 2 combined, and separately for block 3 and 4. Depth data is available in the dataset: FUDNER_raw_Rambera_CNP_core_depths_2022.csv.
+These "quantitative" samples were collected for block 1 and 2 combined, and separately for block 3 and 4.
+
+Depth data is available on OSF in the dataset: FUDNER_raw_Rambera_CNP_core_depths_2022.csv.
 
 ### Important caveat: quantitative data
 
@@ -107,13 +118,14 @@ Samples were transported to UiB within 48 h of sampling and samples were kept in
 
 Freshly frozen samples were weighed (total wet weight (g); 2-digits) in ziplock-bags (weight of bags: "normal"= 3.62 g ; "blue" = 4.68 g). **Note:** Weights of plastic bags should be subtracted from fresh weight before calculating the water content of samples.
 
+Dataset with fresh weights of the composite samples are available on OSF:\
+FUNDER_raw_CNP_fresh_sample_weights_2022.xlsx
+
 *Person responsible: Karolina Jörgensen*
 
 ### Water content, organic matter content and inorganic C content
 
 Soils (all soil in the bag) was transferred to aluminium containers and dried at 55°C for 48h. Dry weight was recorded (2 digits) and the soils were homogenised by hand (breaking aggregates). Litter and larger stones were removed at this stage (weights recorded). A sub-sample (10-25 ml) was transferred a 50 ml Falcon tube (REF: 352070) for fine homogenisation and measurement of total C, N and P content (in Oslo; see section 2 about microbial samples).
-
-Dataset with fresh and dry weights of the composite samples: FUNDER_raw_CNP_sample_weights_2022.csv
 
 *Person responsible: Susanne Berthelsen*
 
@@ -123,7 +135,9 @@ Another sub-sample was used for determining organic matter and inorganic C conte
 
 Soils not used for C/N/P-measurements or LOI were put back into dry zip-lock bags and stored at room temperature.
 
-Dataset: FUNDER_raw_LOI_2022.csv/FUNDER_clean_LOI_2022.csv
+Datasets are available on OSF: \
+FUNDER_raw_LOI_2022.csv\
+FUNDER_clean_LOI_2022.csv
 
 *Person responsible: Susanne Berthelsen*
 
@@ -141,13 +155,14 @@ Homogenised soils were analysed for concentrations of carbon and nitrogen using 
 
 Freshly frozen samples were weighed (total wet weight (g); 2-digits) in ziplock-bags (weight of bags: "normal"= XX ; "blue" = XX).
 
-Data is available in file: FUNDER_funbac_samples.xlsx
+Data is available on OSF in file: \
+FUNDER_raw_microbial_soil_sample_weights_2022.xlsx
 
 *Person responsible: Karolina Jörgensen*
 
 ### Drying
 
-Samples were transported transported to UiO (while frozen) and dried there. The soil was transferred from the zip-lock bag to 50 ml Falcon tubes and dried in a freeze drier for X h. Dried soils were homogenised using a fast prep bead beater with X added ceramic beads (X rounds, X sec, X rpm). Beads were sterilised between samples. **Ask Sondre for details about drying and homogenisation protocol**
+Samples were transported transported to UiO (while frozen) and dried there. The soil was transferred from the zip-lock bag to 50 ml Falcon tubes and dried in a freeze drier for X h. Dried soils were homogenised using a fast prep bead beater with X added ceramic beads (X rounds, X sec, X rpm). Beads were sterilised between samples. **Ask Sondre for details about drying and homogenisation protocol + dry weights of samples.**
 
 *Person responsible: Sondre Eng*
 
@@ -175,9 +190,12 @@ The main objective with the litter bags is to get reliable mass loss data (hence
 
 The fungal necromass bags contain either melianised or non-melanised mycelium and were buried in the field in June 2022. At collection, they had been buried around 3 months.
 
-Similarly to the litter bags, we are interested in estimating mass loss. Bags will be cleaned, dried and weighed. Initial weights of the bags + bag IDs are available in the file: FUNDER_fungal_necromass_weights_UiO.xlsx
+Similarly to the litter bags, we are interested in estimating mass loss. Bags will be cleaned, dried and weighed.
 
 I doubt that Camille Braastad will have time to start cleaning these bags too since the litter bag project is already extensive, but there is a protocol prepared for that too. Susanne has the most recent version.
+
+Weights of bags (pre-incubation) are available on OSF: \
+FUNDER_raw_fungal_necromass_start_weights_2022.xlsx
 
 ## Tea bags (TBI)
 
